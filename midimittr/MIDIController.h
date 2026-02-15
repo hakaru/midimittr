@@ -3,7 +3,6 @@
 #import <Foundation/Foundation.h>
 #import "PGMidi.h"
 #import "PeerTalkBridge.h"
-#import <Peertalk/peertalk.h>
 
 @protocol MIDIControllerDelegate
 -(void)updateResources;

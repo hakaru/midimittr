@@ -1,4 +1,5 @@
 {
+  "originHash" : "456a52fc437bffce92e5cf58f2d98ed1040cefcff8b125d7570164303134e110",
   "pins" : [
     {
       "identity" : "marqueelabel",
@@ -19,6 +20,15 @@
       }
     },
     {
+      "identity" : "peertalk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hakaru/peertalk",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bc6822dc6325be3cd63da7f5126d43ef27ab6e2c"
+      }
+    },
+    {
       "identity" : "snapkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SnapKit/SnapKit",
@@ -28,5 +38,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

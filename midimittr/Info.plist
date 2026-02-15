@@ -44,7 +44,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Advertise</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.matt.midimittr.advertise</string>
+			<string>com.hakaru.midimittr.advertise</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict/>
 		</dict>
@@ -54,7 +54,7 @@
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Client</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.matt.midimittr.clients</string>
+			<string>com.hakaru.midimittr.clients</string>
 			<key>UIApplicationShortcutItemUserInfo</key>
 			<dict/>
 		</dict>

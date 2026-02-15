@@ -2,7 +2,9 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreMIDI/MIDIServices.h>
-#import <Peertalk/peertalk.h>
+
+@class PTChannel;
+@protocol PTChannelDelegate;
 
 @protocol PeerTalkMidiProtocol
 @required
@@ -23,7 +25,7 @@ typedef NS_ENUM(NSInteger, ConnectionState) {
   disabled,
 };
 
-@interface PeerTalkBridge : NSObject<PTChannelDelegate>
+@interface PeerTalkBridge : NSObject
 @property (nonatomic, strong) id<PeerTalkConnectionProtocol> connectionViewDelegate;
 @property (nonatomic) ConnectionState connectionState;
 

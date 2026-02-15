@@ -35,9 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, PeerTalkConnectionProtoco
     let tabController = root.viewControllers[0] as! TabController
     tabController.viewControllers![1] = CABTMIDILocalPeripheralViewController()
     switch shortcutItem.type {
-    case "com.matt.midimittr.advertise":
+    case "com.hakaru.midimittr.advertise":
       tabController.selectedIndex = 1
-    case "com.matt.midimittr.clients":
+    case "com.hakaru.midimittr.clients":
       tabController.selectedIndex = 2
     default:
       fatalError("Unsupported ShortcutItem")

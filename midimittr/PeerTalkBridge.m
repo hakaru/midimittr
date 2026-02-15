@@ -5,7 +5,7 @@
 #include <assert.h>
 #include <mach/mach.h>
 #include <mach/mach_time.h>
-#import <Peertalk/peertalk.h>
+@import Peertalk;
 #include <unistd.h>
 #import "MIDIController.h"
 

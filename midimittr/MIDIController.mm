@@ -8,6 +8,7 @@
 #import <AVKit/AVKit.h>
 #import <AVFoundation/AVFoundation.h>
 #include <mach/mach_time.h>
+@import Peertalk;
 
 id thisClass;
 @interface MIDIController() <PGMidiDelegate, PGMidiSourceDelegate> {
