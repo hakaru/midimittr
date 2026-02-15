@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CHANGELOG.md to track version history
 - TODO.md based on IMPROVEMENT_ROADMAP.md
 - Fork information in README.md
+- Comprehensive Japanese user guide (docs/USER_GUIDE_ja.md) covering:
+  - BLE basics and comparison with Classic Bluetooth
+  - MIDI over BLE technology explanation
+  - Detailed app usage instructions
+  - Troubleshooting guide
+  - FAQ section with 8 common questions
 
 ### Changed
 - **BREAKING:** Migrated dependency management from Carthage to Swift Package Manager

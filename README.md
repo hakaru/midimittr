@@ -1,9 +1,11 @@
 ![Travis CI](https://travis-ci.org/sieren/midimittr.svg?branch=master "Travis CI
-Status") 
+Status")
 [![Platform](https://img.shields.io/cocoapods/p/NotificationBannerSwift.svg?style=flat)](http://cocoapods.org/pods/NotificationBannerSwift)
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift-4.0-4BC51D.svg?style=flat" alt="Language: Swift" /></a>
 [![License](https://img.shields.io/github/license/sieren/midimittr.svg?style=flat)](http://cocoapods.org/pods/NotificationBannerSwift)
 ## midmittr
+
+> This is a fork of [sieren/midimittr](https://github.com/sieren/midimittr) maintained by hakaru. See [CHANGELOG.md](CHANGELOG.md) for modifications.
 
 midimittr is a lightweight iOS utility to initiate MIDI over Bluetooth LE or USB-Lightning connections with simple routing options.
 
@@ -21,15 +23,21 @@ midimittr is a lightweight iOS utility to initiate MIDI over Bluetooth LE or USB
 ## Requirements
 
  - iOS 9.0+
- - Xcode 9.0+
+ - Xcode 14.0+
+ - Swift Package Manager (integrated with Xcode)
 
 ## Installation
 
-### Carthage
+### Swift Package Manager
 
-midimittr is using Carthage to manage most of its dependencies. You can install Carthage via `brew install carthage`.
+All dependencies are managed via Swift Package Manager and will be resolved automatically by Xcode:
 
-Run `carthage update` to clone and install the frameworks.
+- [SnapKit](https://github.com/SnapKit/SnapKit)
+- [NotificationBannerSwift](https://github.com/Daltron/NotificationBanner)
+- [MarqueeLabel](https://github.com/cbpowell/MarqueeLabel)
+- [Peertalk](https://github.com/hakaru/peertalk) (forked for SPM support)
+
+Simply open `midimittr.xcodeproj` in Xcode and build. Dependencies will be fetched automatically.
 
 ### Swiftlint
 
@@ -45,9 +53,10 @@ midimittr is developed in my spare time and requires a yearly app-store subscrip
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WC74EF774344J&lc=US&item_name=midimittr&no_note=0&no_shipping=1&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedJ)
 
-## Arduino, Desktop and FAQ
+## Documentation
 
-Further information about midimittr and Bluetooth over MIDI as well as other projects like Bluetooth over MIDI on certain Arduino boards can be found [here](http://www.s-r-n.de/midimittr).
+- **[User Guide (Japanese)](docs/USER_GUIDE_ja.md)**: Comprehensive guide for beginners, including BLE basics, MIDI over BLE explanation, and detailed usage instructions
+- **[Arduino, Desktop and FAQ](http://www.s-r-n.de/midimittr)**: Further information about midimittr and Bluetooth over MIDI, as well as other projects like Bluetooth over MIDI on certain Arduino boards
 ## License
 
 midimittr is available under the Apache 2.0 license. See the LICENSE file for more info.
